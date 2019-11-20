@@ -13,6 +13,10 @@
 		B1C2C2D82383B3510093EE53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2D62383B3510093EE53 /* Main.storyboard */; };
 		B1C2C2DA2383B3520093EE53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2D92383B3520093EE53 /* Assets.xcassets */; };
 		B1C2C2DD2383B3520093EE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2DB2383B3520093EE53 /* LaunchScreen.storyboard */; };
+		B1C2C2E82383D2900093EE53 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2E42383D2900093EE53 /* 2.wav */; };
+		B1C2C2E92383D2900093EE53 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2E52383D2900093EE53 /* 4.wav */; };
+		B1C2C2EA2383D2900093EE53 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2E62383D2900093EE53 /* 3.wav */; };
+		B1C2C2EB2383D2900093EE53 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = B1C2C2E72383D2900093EE53 /* 1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B1C2C2D92383B3520093EE53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1C2C2DC2383B3520093EE53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1C2C2DE2383B3520093EE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C2C2E42383D2900093EE53 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		B1C2C2E52383D2900093EE53 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		B1C2C2E62383D2900093EE53 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		B1C2C2E72383D2900093EE53 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				B1C2C2D92383B3520093EE53 /* Assets.xcassets */,
 				B1C2C2DB2383B3520093EE53 /* LaunchScreen.storyboard */,
 				B1C2C2DE2383B3520093EE53 /* Info.plist */,
+				B1C2C2E72383D2900093EE53 /* 1.wav */,
+				B1C2C2E42383D2900093EE53 /* 2.wav */,
+				B1C2C2E62383D2900093EE53 /* 3.wav */,
+				B1C2C2E52383D2900093EE53 /* 4.wav */,
 			);
 			path = "AR Guitar";
 			sourceTree = "<group>";
@@ -125,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C2C2EA2383D2900093EE53 /* 3.wav in Resources */,
+				B1C2C2EB2383D2900093EE53 /* 1.wav in Resources */,
 				B1C2C2DD2383B3520093EE53 /* LaunchScreen.storyboard in Resources */,
 				B1C2C2DA2383B3520093EE53 /* Assets.xcassets in Resources */,
 				B1C2C2D82383B3510093EE53 /* Main.storyboard in Resources */,
+				B1C2C2E82383D2900093EE53 /* 2.wav in Resources */,
+				B1C2C2E92383D2900093EE53 /* 4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
