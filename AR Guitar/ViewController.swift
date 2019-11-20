@@ -76,14 +76,16 @@ class ViewController: UIViewController, ARSessionDelegate {
                 leftHandAnchor.addChild(leftHandBox)
             }
             
+            guard leftHandPosition.y - hipPosition.y > 0.1 else { return }
+            
             if rightHandPosition.y - hipPosition.y < 0.15 {
                 if !strummed {
                     let x = leftHandPosition.x - hipPosition.x
-                    if x < 0.1 {
+                    if x < 0.15 {
                         playSound(file: "4")
-                    } else if x < 0.2 {
+                    } else if x < 0.23 {
                         playSound(file: "3")
-                    } else if x < 0.3 {
+                    } else if x < 0.31 {
                         playSound(file: "2")
                     } else {
                         playSound(file: "1")
