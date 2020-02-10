@@ -95,13 +95,13 @@ class ViewController: UIViewController, ARSessionDelegate {
             if rightHandPosition.y - hipPosition.y < 0.15 {
                 if !strummed {
                     let x = leftHandPosition.x - hipPosition.x
-                    if x < 0.15 {
+                    if x < 0.13 {
                         playSound(file: "4")
                         label.displayMessage("Playing 4th sound", duration: 2)
                     } else if x < 0.23 {
                         playSound(file: "3")
-                    } else if x < 0.31 {
                         label.displayMessage("Playing 3rd sound", duration: 2)
+                    } else if x < 0.33 {
                         playSound(file: "2")
                         label.displayMessage("Playing 2nd sound", duration: 2)
                     } else {
