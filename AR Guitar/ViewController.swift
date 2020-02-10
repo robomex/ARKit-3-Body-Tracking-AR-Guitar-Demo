@@ -27,6 +27,7 @@ class ViewController: UIViewController, ARSessionDelegate {
     
     var player: AVAudioPlayer?
     var strummed = false
+    var label = MessageLabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,6 +48,15 @@ class ViewController: UIViewController, ARSessionDelegate {
         
         let configuration = ARBodyTrackingConfiguration()
         arView.session.run(configuration)
+        
+        label = MessageLabel(frame: CGRect(x: 0, y: 0, width: 300, height: 100))
+        label.center = view.center
+        label.center.y += 200
+        label.textAlignment = .center
+        label.text = "Point the camera at someone \na few feet away"
+        label.textColor = .white
+        label.numberOfLines = 0
+        view.addSubview(label)
     }
     
     func session(_ session: ARSession, didUpdate anchors: [ARAnchor]) {
@@ -56,7 +66,7 @@ class ViewController: UIViewController, ARSessionDelegate {
             guard let hipTransform = bodyAnchor.skeleton.modelTransform(for: .root) else { continue }
             guard let rightHandTransform = bodyAnchor.skeleton.modelTransform(for: .rightHand) else { continue }
             guard let leftHandTransform = bodyAnchor.skeleton.modelTransform(for: .leftHand) else { continue }
-
+            
             let headPosition = simd_make_float3(bodyAnchor.transform.columns.3) + simd_make_float3(headTransform.columns.3)
             headAnchor.position = headPosition
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B189442023F1E7B800CA745E /* MessageLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189441F23F1E7B800CA745E /* MessageLabel.swift */; };
 		B1C2C2D12383B3510093EE53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2C2D02383B3510093EE53 /* AppDelegate.swift */; };
 		B1C2C2D32383B3510093EE53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C2C2D22383B3510093EE53 /* ViewController.swift */; };
 		B1C2C2D52383B3510093EE53 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = B1C2C2D42383B3510093EE53 /* Experience.rcproject */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B189441F23F1E7B800CA745E /* MessageLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageLabel.swift; sourceTree = "<group>"; };
 		B1C2C2CD2383B3510093EE53 /* AR Guitar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Guitar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1C2C2D02383B3510093EE53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1C2C2D22383B3510093EE53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				B1C2C2D02383B3510093EE53 /* AppDelegate.swift */,
 				B1C2C2D22383B3510093EE53 /* ViewController.swift */,
 				B1C2C2D42383B3510093EE53 /* Experience.rcproject */,
+				B189441F23F1E7B800CA745E /* MessageLabel.swift */,
 				B1C2C2D62383B3510093EE53 /* Main.storyboard */,
 				B1C2C2D92383B3520093EE53 /* Assets.xcassets */,
 				B1C2C2DB2383B3520093EE53 /* LaunchScreen.storyboard */,
@@ -156,6 +159,7 @@
 			files = (
 				B1C2C2D32383B3510093EE53 /* ViewController.swift in Sources */,
 				B1C2C2D12383B3510093EE53 /* AppDelegate.swift in Sources */,
+				B189442023F1E7B800CA745E /* MessageLabel.swift in Sources */,
 				B1C2C2D52383B3510093EE53 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
