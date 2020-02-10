@@ -20,10 +20,10 @@ class ViewController: UIViewController, ARSessionDelegate {
     let rightHandAnchor = AnchorEntity()
     let leftHandAnchor = AnchorEntity()
     
-    var headBox: Experience.Box!
-    var hipBox: Experience.Box!
-    var rightHandBox: Experience.Box!
-    var leftHandBox: Experience.Box!
+    var headBox: Experience.HeadBox!
+    var hipBox: Experience.HipsBox!
+    var rightHandBox: Experience.RightHandBox!
+    var leftHandBox: Experience.LeftHandBox!
     
     var player: AVAudioPlayer?
     var strummed = false
@@ -36,10 +36,10 @@ class ViewController: UIViewController, ARSessionDelegate {
         // build to an actual device – not a simulator.
         arView.session.delegate = self
         
-        headBox = try! Experience.loadBox()
-        hipBox = try! Experience.loadBox()
-        rightHandBox = try! Experience.loadBox()
-        leftHandBox = try! Experience.loadBox()
+        headBox = try! Experience.loadHeadBox()
+        hipBox = try! Experience.loadHipsBox()
+        rightHandBox = try! Experience.loadRightHandBox()
+        leftHandBox = try! Experience.loadLeftHandBox()
         
         arView.scene.addAnchor(headAnchor)
         arView.scene.addAnchor(hipAnchor)

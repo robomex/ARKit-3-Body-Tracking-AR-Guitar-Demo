@@ -29,7 +29,19 @@
                           "material",
                           {
                             "typeName" : "String",
-                            "value" : "steel"
+                            "value" : "clearCoatPaint"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.20000000298023224,
+                              0.20000000298023224,
+                              1,
+                              1
+                            ]
                           }
                         ],
                         [
@@ -76,7 +88,7 @@
                         1,
                         0,
                         0,
-                        0.05000000074505806,
+                        0,
                         0,
                         1
                       ]
@@ -88,7 +100,7 @@
                 },
                 "factory" : null
               },
-              "title" : "Box",
+              "title" : "HeadBox",
               "viewTransform" : {
                 "cameraTransform" : [
                   0.99999994039535522,
@@ -106,6 +118,404 @@
                   0,
                   1.135667085647583,
                   1.5549418926239014,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "6E5D69D8-6274-4352-B96F-B0D2597C8CCA",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "Cube" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "clearCoatPaint"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              0.20000000298023224,
+                              0.20000000298023224,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "box"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "D29B3303-8902-44B5-AFF2-E60F5DBC4FBB"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "HipsBox",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99999994039535522,
+                  0,
+                  -0,
+                  0,
+                  -0,
+                  0.88342851400375366,
+                  -0.46856585144996643,
+                  0,
+                  0,
+                  0.46856585144996643,
+                  0.88342851400375366,
+                  0,
+                  -0.052692443132400513,
+                  0.38446110486984253,
+                  0.53412806987762451,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "05AACD29-04C2-4C9B-A733-DE9E512CD452",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "Cube" : null,
+                  "E938F449-9A1C-4AB1-86C6-14DC994A22B6" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "clearCoatPaint"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.20000000298023224,
+                              1,
+                              0.20000000298023224,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "45E5C88A-6A42-4DDB-9CD0-F7D8205D1040"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "LeftHandBox",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99999994039535522,
+                  0,
+                  -0,
+                  0,
+                  -0,
+                  0.88347268104553223,
+                  -0.46848264336585999,
+                  0,
+                  0,
+                  0.46848264336585999,
+                  0.88347268104553223,
+                  0,
+                  0.051098469644784927,
+                  0.38439482450485229,
+                  0.5341382622718811,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "8C7C2F6A-196A-4653-BC9B-DE8A889D4FD6",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "Cube" : null,
+                  "DD7E9A4B-4FDF-413F-9163-4BDC6D87E5CE" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "clearCoatPaint"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              1,
+                              1,
+                              0.20000000298023224,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "sphere"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DAECB312-D94D-4819-ABDB-0EA4BE997BB6"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "RightHandBox",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99999994039535522,
+                  0,
+                  -0,
+                  0,
+                  -0,
+                  0.88344568014144897,
+                  -0.46853354573249817,
+                  0,
+                  0,
+                  0.46853354573249817,
+                  0.88344568014144897,
+                  0,
+                  0.051091894507408142,
+                  0.3844260573387146,
+                  0.53412199020385742,
                   1
                 ],
                 "sceneTransform" : [
