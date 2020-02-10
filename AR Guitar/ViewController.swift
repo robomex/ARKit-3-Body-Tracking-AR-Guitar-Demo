@@ -84,6 +84,10 @@ class ViewController: UIViewController, ARSessionDelegate {
                 hipAnchor.addChild(hipBox)
                 rightHandAnchor.addChild(rightHandBox)
                 leftHandAnchor.addChild(leftHandBox)
+                
+                label.text = """
+                Change sounds with left hand placement, strum with right hand
+                """
             }
             
             guard leftHandPosition.y - hipPosition.y > 0.1 else { return }
@@ -93,12 +97,16 @@ class ViewController: UIViewController, ARSessionDelegate {
                     let x = leftHandPosition.x - hipPosition.x
                     if x < 0.15 {
                         playSound(file: "4")
+                        label.displayMessage("Playing 4th sound", duration: 2)
                     } else if x < 0.23 {
                         playSound(file: "3")
                     } else if x < 0.31 {
+                        label.displayMessage("Playing 3rd sound", duration: 2)
                         playSound(file: "2")
+                        label.displayMessage("Playing 2nd sound", duration: 2)
                     } else {
                         playSound(file: "1")
+                        label.displayMessage("Playing 1st sound", duration: 2)
                     }
                 }
                 strummed = true
