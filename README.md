@@ -5,7 +5,7 @@ This project was a quick dive into RealityKit and ARKit 3's Body Tracking (i.e. 
 
 ![ARKit 3 Body Tracking AR Guitar Demo Gif](https://github.com/robomex/ARKit-3-Body-Tracking-AR-Guitar-Demo/blob/master/ARKit-3-Body-Tracking-AR-Guitar-Demo.gif)
 
-To watch the video with sound, check it out [on Twitter](https://twitter.com/robomex).
+To watch the video with sound, check it out [on Twitter](https://twitter.com/robomex/status/1227671593746419715).
 
 I wrote more about building this demo and my initial thoughts on [RealityKit](https://1984.dev/Building-with-RealityKit.html).
 
